@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+ </head>
+<body>
+    <h1>User Dashboard</h1>
+
+    <div>
+        <div>
+            <asp:Label runat="server">Show All</asp:Label>
+            <input type="button" value="GET" id="mybutton1">
+        </div>
+        <br />
+        <div>
+            <asp:Label runat="server">Show by Id</asp:Label>
+            <input type="button" value="GET Id" id="mybutton2">
+            <input type="text" id="myinput" placeholder="Number between 1 and 4" autofocus>
+        </div>
+
+    </div>
+
+    <div id="user-list">
+        <!-- Where the data will be shown  -->
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
